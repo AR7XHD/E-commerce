@@ -1,0 +1,67 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fce6f3; /* Light pink background like the image */
+  }
+  
+  .signup-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 420px; /* 👈 increase from 320px to 420px or any value you prefer */
+  }
+  
+  
+  .signup-form h2 {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .continue-btn {
+    width: 100%;
+    padding: 10px;
+    background: #e74c3c; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .continue-btn:hover {
+    background: #c0392b;
+  }
+  
+  .login-text {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  
+  .login-link {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .terms {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  

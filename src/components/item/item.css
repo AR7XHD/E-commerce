@@ -1,0 +1,30 @@
+.item {
+    width: 250px;
+    height: auto;
+    background-color: #f0f0f0;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item img {
+    width: 250px;
+
+
+}
+
+.item>h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.item .price  {
+    display: flex;
+    gap: 10px;
+}
+
+.item .old_price {
+    text-decoration: line-through;
+    color: rgb(135, 135, 135);
+}

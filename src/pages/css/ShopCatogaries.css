@@ -1,0 +1,33 @@
+.productss {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 100px;
+        flex-wrap: wrap;
+       
+}
+
+.banner img {
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+
+.catogarie-sort {
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.catogarie-sort p {
+    font-weight: 500;
+}
+
+.catogarie-sort span {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
