@@ -2,3 +2,12 @@ body {
     background-color: #f8f8f8;
 }
 
+<<<<<<< HEAD
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+>>>>>>> 5a8e0d8e1aa947902c7fd5b58f3827858fa36bbe
