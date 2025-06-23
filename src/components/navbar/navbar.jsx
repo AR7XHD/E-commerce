@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   const [menu, setmenu] = useState(() => {
     const saved = localStorage.getItem("menu");
-    return saved !== null ? JSON.parse(saved) : "shop"; // ← your initial value is 5
+    return saved !== null ? JSON.parse(saved) : "shop"; 
   });
 
   useEffect(() => {
