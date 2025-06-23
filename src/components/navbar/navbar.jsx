@@ -4,8 +4,11 @@ import logo from '../../assets/logo.png'
 import cart_icon from '../../assets/cart_icon.png'
 import { useState,useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
+import { useContext } from 'react'
+import { ProductsContext } from '../../context/AllProductscontext'
 
 const Navbar = () => {
+  const {getCartCount} = useContext(ProductsContext);
   const [menu, setmenu] = useState(() => {
     const saved = localStorage.getItem("menu");
     return saved !== null ? JSON.parse(saved) : "shop"; 
@@ -35,7 +38,7 @@ const Navbar = () => {
           <NavLink to='/cart'>
             <img src={cart_icon} alt="Cart" />
           </NavLink>
-          <div className='nav-cart-count-number'>0</div>
+          <div className='nav-cart-count-number'>{getCartCount()}</div>
         </div>
       </div>
     </div>
